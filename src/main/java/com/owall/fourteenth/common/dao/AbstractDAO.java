@@ -5,13 +5,13 @@ import java.util.List;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 
-//import com.mysql.jdbc.log.Log;
-//import com.mysql.jdbc.log.LogFactory;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+//import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+
 
 public class AbstractDAO {
-	@Autowired
 	protected Log log = LogFactory.getLog(AbstractDAO.class);
     
     @Autowired
